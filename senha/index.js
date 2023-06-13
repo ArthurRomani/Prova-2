@@ -14,7 +14,7 @@ function verificarSenha(senha) {
     return 'A senha é válida!';
   }
   
-  console.log(verificarSenha('Senha123')); // A senha é válida!
-  console.log(verificarSenha('senha123')); // A senha deve conter pelo menos uma letra maiúscula.
-  console.log(verificarSenha('Senha')); // A senha deve ter pelo menos 8 caracteres.
+  console.log(verificarSenha('Arthur123')); // A senha é válida!
+  console.log(verificarSenha('arthur123')); // A senha deve conter pelo menos uma letra maiúscula.
+  console.log(verificarSenha('Arthur')); // A senha deve ter pelo menos 8 caracteres.
   console.log(verificarSenha('12345678')); // A senha deve conter pelo menos uma letra maiúscula.
